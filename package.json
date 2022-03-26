@@ -1,0 +1,29 @@
+{
+  "name": "gridsome-blog-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A CMS for a blog built with Strapi",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.1.5",
+    "@strapi/plugin-i18n": "4.1.5",
+    "@strapi/plugin-users-permissions": "4.1.5",
+    "@strapi/strapi": "4.1.5",
+    "sqlite3": "5.0.2"
+  },
+  "author": {
+    "name": "Melinda Golden"
+  },
+  "strapi": {},
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
