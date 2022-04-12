@@ -39,6 +39,9 @@
     },
     "body": {
       "type": "richtext"
+    },
+    "readingTime": {
+      "type": "string"
     }
   }
 }
