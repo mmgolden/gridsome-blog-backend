@@ -12,7 +12,7 @@ services:
       sizeGB: 1
     envVars:
       - key: NODE_VERSION
-        value: 14.19.0
+        value: 14.19.1
       - key: NODE_ENV
         value: production
       - key: DATABASE_FILENAME
